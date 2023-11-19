@@ -18,7 +18,7 @@
   const appendChatWidget = (address = "") => {
     console.log({ address });
     const iframe = document.getElementById("sb-chat-iframe");
-    const widgetUrl = `http://localhost:4200/widget/chat/${address}`;
+    const widgetUrl = `https://chat-ethglobal-n2n.socialbureau.io/widget/chat/${address}`;
     iframe.src = widgetUrl;
   };
 
